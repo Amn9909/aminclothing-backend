@@ -3,7 +3,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { LandingPageModule } from './landing-page/landing-page.module';
 import { MongooseModule } from '@nestjs/mongoose';
-import { InventoryManagementModule } from './inventory-management/inventory-management.module';
+import { InventoryManagementModule } from './inventory/inventory.module';
 import { AuthModule } from './auth/auth.module';
 
 @Module({
